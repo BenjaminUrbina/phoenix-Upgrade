@@ -1,0 +1,15 @@
+.contenerdor-info-alumno {
+  border-color: black;
+  border-width: 1px;
+  border-radius: 3px;
+  border-style: solid;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+.imgAlumno {
+  width: min-content;
+  max-height: 250px;
+}
