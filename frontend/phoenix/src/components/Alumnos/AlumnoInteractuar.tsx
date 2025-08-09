@@ -1,9 +1,14 @@
 import "./alumnosinteractuar.css";
 import Navbar from "../navbar/NavbarPage";
+import { Outlet } from "react-router-dom";
+
 function AlumnoInteractuar() {
   return (
     <div className="contenedor-AlumnoInteractuar">
       <Navbar />
+      <div className="contenedor-vista">
+        <Outlet />
+      </div>
     </div>
   );
 }
