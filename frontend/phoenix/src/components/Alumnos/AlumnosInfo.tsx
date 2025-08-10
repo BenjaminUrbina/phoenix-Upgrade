@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container";
 import alumnosIMG from "../../assets/imgIncog.jpg";
 import { Image } from "react-bootstrap";
-import "./alumnosInfo.css";
+import "../../styles/components/alumnosInfo.css";
 import { Link } from "react-router-dom";
 
 function AlumnosInfo() {

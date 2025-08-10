@@ -1,4 +1,4 @@
-import "./alumnosinteractuar.css";
+import "../../styles/components/alumnosinteractuar.css";
 import Navbar from "../navbar/NavbarPage";
 import { Outlet } from "react-router-dom";
 

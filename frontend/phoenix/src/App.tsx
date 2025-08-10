@@ -1,11 +1,11 @@
 //import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Alumnos from "./pages/Alumnos";
-import Notas from "./pages/Notas";
-import Inicio from "./components/Alumnos/Inicio";
-import Prueba from "./components/Alumnos/Prueba";
+
+// Usando barrel exports para importaciones más limpias
+import { Alumnos, Inicio, Notas } from "./pages/alumnos/index";
+import { Home } from "./pages/index"
+import { PruebaComponent } from "./components";
 
 function App() {
   //const [count, setCount] = useState(0);
@@ -17,7 +17,7 @@ function App() {
         <Route index element={<Inicio />} />
         <Route path="inicio" element={<Inicio />} />
         <Route path="notas" element={<Notas />} />
-        <Route path="prueba" element={<Prueba />} />
+        <Route path="prueba" element={<PruebaComponent />} />
       </Route>
     </Routes>
   );
