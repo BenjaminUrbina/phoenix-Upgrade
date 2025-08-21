@@ -1,5 +1,5 @@
 import Contenedor from "react-bootstrap/Container";
-import "../../styles/pages/inicio-alumno.css"
+import "../../styles/pages/inicio-alumno.css";
 import NewNoticiasCard from "../../components/Noticias/NewNoticiasCard";
 
 type Props = {};
@@ -9,7 +9,8 @@ function InicioPage({}: Props) {
     <div className="inicio-container">
       <h1>Bienvenido a la plataforma de la Universidad de la Serena</h1>
       <p>
-        Esta plataforma es un proyecto de prueba para la materia de Programación Web.
+        Esta plataforma es un proyecto de prueba para la materia de Programación
+        Web.
       </p>
       <Contenedor className="container-newNotices">
         <h2>Ultimas Noticias</h2>
@@ -17,7 +18,7 @@ function InicioPage({}: Props) {
         actualizar de manera iterativa las noticias */}
         <NewNoticiasCard />
       </Contenedor>
-    </div >
+    </div>
   );
 }
 

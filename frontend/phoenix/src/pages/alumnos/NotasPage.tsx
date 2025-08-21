@@ -1,7 +1,8 @@
-type Props = {};
+import { Notas } from "../../components/index";
 
+type Props = {};
 function NotasPage({}: Props) {
-  return <div>notas</div>;
+  return <Notas />;
 }
 
 export default NotasPage;

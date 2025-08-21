@@ -1,0 +1,6 @@
+.container-newNotices img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover; /* Opcional, recorta la imagen si es necesario */
+}

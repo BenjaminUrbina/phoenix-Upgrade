@@ -1,13 +1,13 @@
-import { AlumnosInfo, AlumnoInteractuar } from "../../components/alumnos/index";
+import { AlumnosInfo, AlumnoInteractuar } from "../../components";
 import "../../styles/pages/alumnos.css";
 
 function AlumnosPage() {
-    return (
-        <div className="contenedor-alumnos">
-            <AlumnosInfo />
-            <AlumnoInteractuar />
-        </div>
-    );
+  return (
+    <div className="contenedor-alumnos">
+      <AlumnosInfo />
+      <AlumnoInteractuar />
+    </div>
+  );
 }
 
 export default AlumnosPage;

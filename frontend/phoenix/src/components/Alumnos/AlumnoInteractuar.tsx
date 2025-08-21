@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 
 function AlumnoInteractuar() {
   return (
-    <div className="contenedor-AlumnoInteractuar">
+    <div className="contenedor-AlumnoInteractuar rounded">
       <Navbar />
       <div className="contenedor-vista">
         <Outlet />

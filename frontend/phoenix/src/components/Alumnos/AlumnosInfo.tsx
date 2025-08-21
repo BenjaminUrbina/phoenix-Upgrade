@@ -6,14 +6,19 @@ import { Link } from "react-router-dom";
 
 function AlumnosInfo() {
   return (
-    <div className="contenerdor-info-alumno">
-      <Container className="info-alumnos">
+    <div className="contenerdor-info-alumno rounded">
+      <Container className="info-alumnos justify-content-center">
         <Image src={alumnosIMG} alt="AlumnoImagen" className="imgAlumn" fluid />
-        <p>Informacion Alumno</p>
-        <p>Carrera</p>
-        <p>Año</p>
-        <p>Ingreso</p>
-        <Link to="/alumnos/inicio" className="btn btn-primary">Ir a inicio</Link>
+        <p className="text-sm">Informacion Alumno</p>
+        <p className="text-sm">Carrera</p>
+        <p className="text-sm">Año</p>
+        <p className="text-sm">Ingreso</p>
+        <Link to="/alumnos/inicio" className="">
+          Ir a inicio
+        </Link>
+        <Link to="" className="">
+          Servicio de Salud
+        </Link>
       </Container>
 
       <Container className="hub-alumnos-ayuda">

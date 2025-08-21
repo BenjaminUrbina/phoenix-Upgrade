@@ -3,9 +3,10 @@ import { Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 // Usando barrel exports para importaciones más limpias
-import { Alumnos, Inicio, Notas } from "./pages/alumnos/index";
-import { Home } from "./pages/index"
+import { Alumnos, Inicio } from "./pages/alumnos/index";
+import Home from "./pages/Home";
 import { PruebaComponent } from "./components";
+import { Notas } from "./components/index";
 
 function App() {
   //const [count, setCount] = useState(0);

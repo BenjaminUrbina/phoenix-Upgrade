@@ -1,0 +1,7 @@
+.title-noticia {
+  font-size: clamp(20px, 5vw, 40px);
+  color: rgba(0, 13, 255, 0.555);
+}
+.card-container {
+  overflow-y: hidden !important;
+}

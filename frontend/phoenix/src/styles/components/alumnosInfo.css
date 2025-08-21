@@ -1,15 +1,30 @@
 .contenerdor-info-alumno {
-  border-color: black;
-  border-width: 1px;
-  border-radius: 3px;
-  border-style: solid;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 400px;
+  flex-basis: 22%;
+  flex-shrink: 1;
+  flex-grow: 0;
+  max-width: 22%;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+  overflow: auto;
+  background-color: rgb(248, 248, 248) !important;
+  min-width: 280px;
 }
-.imgAlumno {
-  width: min-content;
-  max-height: 250px;
+.imgAlumn {
+  border-radius: 50%;
+  margin-bottom: 2.8rem;
+  margin-top: 1.5rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  min-height: 250px;
+  min-width: 250px;
 }
+
+.info-alumnos {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
