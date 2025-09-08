@@ -25,3 +25,7 @@ replay_id*
 
 # MacOS trash
 .DS_Store
+
+.env
+.env.*
+!.env.example
