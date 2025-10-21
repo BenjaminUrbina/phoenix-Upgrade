@@ -34,3 +34,39 @@ TypeScript añade una capa de seguridad y organización mediante el tipado está
 
 La principal decisión para poder desarrollar con java el backend es por la familiaridad de java, la seguirdad que entrega spring boot. Es posible utilizar otros elementos como NestJS o GO pero ya que en la carrera se nos familiariza con java, se me es muy como desarrollar con este. 
 
+# DOCKER en el proyecto
+
+En este proyecto contamos con variables de entorno, las cuales son las siguientes:
+
+- POSTGRES_DB=phoenixULS
+- POSTGRES_USER=phoenix
+- POSTGRES_PASSWORD=132$
+- POSTGRES_PORT=5433
+
+Todo esto se encuentra dentro del archivo .env, para que docker pueda trabajar con ellas.
+
+
+## Ejecutar docker compose
+
+```bash
+docker-compose up -d
+```
+
+### Como entrar a la terminal del contenedor desde la terminal de la maquina
+
+```bash
+docker compose exec -it postgres bash
+```
+
+Puedes conectarte a la base de datos usando :
+
+```bash
+1. psql -U "$POSTGRES_USER" -d postgres -h localhost
+2. psql -U nombreuser -d postgres -h localhost
+3. psql -U nombreuser -d basedadatosname -h localhost
+```
+
+
+
+
+
